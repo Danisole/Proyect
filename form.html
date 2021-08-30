@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+<body
+    <header>
+        <h1>formularios</h1>
+    </header>
+
+        <main>
+            <h2>complete el formulario para ser Usuario</h2>
+            <p>completando la descripción, te regalaremos un gatito</p>
+
+            <form action="/" method="POST"></form>
+            <!-- input text -->
+            <!-- el label le da el focoy si el input no esta denytro de label se los relaciona usando el fotrque tiene que coincidir con el id -->
+
+            <label for="nombre">Nombre: 
+            <input type="text" name="nombre" id="nombre" placeholder="tu nombre" maxlength="24" minlength="2" required> 
+                         
+            </label>
+
+            <label class="input-label">Apellido
+                <input type="text" id="apellido" placeholder="gomez" value="Perez" maxlength="24" minlength="2" required> 
+                           
+            </label>
+
+            <br>
+            <br>
+
+            <!-- input password -->
+            <label class="input-label">password:
+                <input type="password" name="password" placeholder="pone una clave">
+            </label>
+
+            <br>
+            <br>
+
+            <!-- textoreo -->
+            <textarea name="comentario" id="" cols="30" rows="10" 
+            placeholder="que opinas de nosotros"></textarea>
+
+
+            <label for=""></label>
+
+
+        </main>
+</body>
+</html>
