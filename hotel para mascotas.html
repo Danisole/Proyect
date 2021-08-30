@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty´s</title>
+
+</head>
+
+<body>
+
+    <div></div>
+    <header>
+
+        <h1> <strong>Kitty´s primer hotel para gatos</strong></h1>
+        <h2>Queremos mimar a tu gatito como si estuviera en casa, comencemos:</h2>
+        <img src="https://img.freepik.com/vector-gratis/dibuja-gatos-lindos-mira-peces-blanco_45130-846.jpg?size=626&ext=jpg" alt="guarda gatos">
+
+    </header>
+        <main>
+            <h2>Crear usuario y contraseña</h2>
+            <form action="/" method="POST"></form>
+            <!-- input text -->
+            <!-- el label le da el focoy si el input no esta denytro de label se los relaciona usando el fotrque tiene que coincidir con el id -->
+
+            <label for="nombre">Nombre: 
+            <input type="text" name="nombre" id="nombre" placeholder="tu nombre" maxlength="24" minlength="2" required> 
+                         
+            </label>
+
+            <label class="input-label">Apellido
+                <input type="text" id="apellido" placeholder="tu apellido" maxlength="24" minlength="2" required> 
+                           
+            </label>
+
+            <br>
+            <br>
+
+            <!-- input password -->
+            <label class="input-label">password:
+                <input type="password" name="password" placeholder="crea una clave">
+            </label>
+
+
+            <br>
+            <br>
+
+            <h2>Fecha de nacimiento</h2>
+            <label>
+                <input type="date" name="nacimiento" id="nacimiento">
+            </label>
+
+            <br>
+            <br>
+            
+
+            <h2>Ahora vamos por tu gatito</h2>
+
+            <label for="nombre">Nombre de tu gato: 
+
+                <input type="text" name="nombre" id="nombre" placeholder="su nombre" maxlength="24" minlength="2" required> 
+                             
+            </label>
+            
+            <br>
+            <br>
+                           
+            <h3>Color de tu gato</h3>
+            
+                <label>
+                    <input type="radio" name="Color" id="color1" value="Negro">Negro
+                </label>
+
+                <label>
+                    <input type="radio" name="Color" id="color2" value="Blanco">Blanco
+                </label>
+                
+                <label>
+                    <input type="radio" name="Color" id="color3" value="tricolor">Tricolor
+                </label>
+
+                <label>
+                    <input type="radio" name="Color" id="color4" value="Gris" checked>Gris
+                </label>
+       
+            
+
+            <br>
+
+            <br>
+
+
+            <h3> <Strong>Tipo de alimentación que recibe</Strong> </h3>
+
+            <label>
+                <input type="checkbox" name="alimentacion" value="alimento balanceado" id="">Alimento Balanceado 
+            </label> 
+
+            <label>
+                <input type="checkbox" name="alimentacion" value="comida casera" id="">Comida Casera
+            </label> 
+            
+            <label>                          
+                <input type="checkbox" name="alimentacion" value="otros" id="">Otros <input type="text" name="indique" id="" placeholder="indique" maxlength="30">
+            </label>
+
+            <br>
+            <br>
+
+            <h3>Categoría</h3>
+
+            <select name="peso" id="peso">
+                <option value="flaco">Flaco</option>
+                <option value="fitness">Fitness</option>
+                <option value="gordito">Gordito</option>
+                <option value="llenito de amor">Llenito de amor</option>
+                <option value="obeso">Obeso</option>
+            </select>
+
+            <br>
+            <br>
+            
+           <!-- textoreo -->
+
+             <p> <strong>Otras curiosidades sobre tu gato</strong> </p>
+
+             <textarea name="comentario" id="" cols="30" rows="10" 
+             placeholder="contanos mas"></textarea>
+   
+            <h3>Subinos una foto!</h3>
+
+               <input type="file" name="foto" id="foto" accept="imagen/*">
+
+            <br>
+            <br>
+
+            <br>
+
+            <input type="submit" name="submit" value="Enviar">
+            
+        </main>
+</body>
+</html>
